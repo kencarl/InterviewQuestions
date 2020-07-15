@@ -1,0 +1,301 @@
+# Personal Interest
+-    What was the proudest moment you've had developing?
+-    When did you last write code and what was it?
+-    What was the last time you taught yourself something new and how did you do it?
+# Project Management
+-    How did you manage your last project. What worked and what didn't?
+-    What do you find to be the most challenging part of working on a project?
+-    How do you design, develop and debug applications? What tools do you like to use best?
+-    Do you do your best work alone or in a group? Does the type of work matter?
+-    You have been assigned to a project in a new technology you haven't worked with before. How do you get started? Have you ever done this before? How did it go?
+# Working with Humans
+-    Have you ever had to work with someone else that didn't pull their weight on a project? How did you handle it? Did things ever improve? If you had to do it all over again would you change anything?
+-    How would you explain the Internet to a child?
+-    Tell us about a time you helped someone solve a technical issue where the person you were helping was difficult to work with.
+-    How would you explain a database to somebody's grandparents?
+-    A customer is complaining about a particular issue but you can't reproduce it. How would you handle this situation?
+-    Tell me about a time when you were wowed by the service you received. What made it special? How could you apply those lessons to our product/service? What are some ways we could wow our customers?
+# General Concepts
+-    What are the benefits and pitfalls of asynchronous programming?
+-    What are some qualities of a well designed API?
+-    What is the difference between a mutex and a semaphore?
+-    What does refactoring mean to you? Why is it important and when have you done it?
+-    What is the difference between a framework and a library?
+-    What is a closure and how are they used? What are some common pitfalls of closures?
+-    Can the `this` keyword be used in a static method? Why or why not?
+-    Have you ever seen Object-Oriented programming go wrong? What happened?
+-    Write some pseudo-code to raise a number to a power without using Math.pow() or equivalent.
+# JavaScript-Specific
+-    What does "use strict" do?
+-    What the difference between "==" and "==="?
+-    What is the difference between an object-oriented language and a prototypal language?
+-    What is the difference between `var` and `let` in JavaScript?
+-    How is the `this` keyword used in JavaScript?
+-    When should I use `var`, and why is the answer never?
+-    What is jQuery and does it still have a place in modern web development?
+# Object-Oriented Programming
+-    Can you give a small example of when to use inheritance?
+-    Can you explain the difference between a class method and an instance method?
+-    When would you use an abstract class?
+# Theoreticals
+-    Suppose you are writing a test script to test a function running in a process overnight. How do you make sure that if the process is halted, your test function will be able to detect that.
+-    What do you care about most when reviewing somebody else's code?
+-    Given the following variables: time, budget, customer happiness and best practices which are most important in a project? Give them an order and explain why.
+-    What is an appropriate use-case for a Regular Expression? What is an inappropriate use-case?
+-    How can you reduce the user's perception of waiting when some functions take a lot of time? Similarly, how can you reduce the customer's perception of waiting time?
+-    If you were hiring someone in this role, what would you look for?
+# Agile
+-    What is the purpose of an Agile Post-Mortem/Retrospective ceremony and why is it useful?
+
+
+
+(A lot of PHP/SQL stuff)
+# General Knowledge Questions:
+​
+Please write your answers in the code blocks.
+​
+**NOTICE:** Some (but not all) questions may be easier to answer with code or pseudocode. As an example, all of these are an acceptable answer to the question "How do you iterate a variable in PHP?"
+​
+```
+[Put Your Answer Here]
+```
+​
+```
+[Put Your Answer Here]
+```
+​
+```
+[Put Your Answer Here]
+```
+​
+-----------------------------------------------------------------------
+​
+## Section: PHP
+​
+1. How do you get information from a form that is submitted using the "get" method?
+​
+```
+[Put Your Answer Here]
+```
+​
+2. What is the correct way to create a function in PHP?
+​
+```
+[Put Your Answer Here]
+```
+​
+3. Name a method to output an array?
+​
+```
+[Put Your Answer Here]
+```
+​
+4. Which operator is used to check if two values are equal and of same data type?
+​
+```
+[Put Your Answer Here]
+```
+​
+5. Which superglobal variable holds information about headers, paths, and script locations?
+​
+```
+[Put Your Answer Here]
+```
+​
+6. Explain how `static function` works in PHP class methods.
+​
+```
+[Put Your Answer Here]
+```
+​
+​
+7. What is the commonly used library for database connections?
+​
+```
+[Put Your Answer Here]
+```
+​
+8. What is the commonly used library for making requests?
+​
+```
+[Put Your Answer Here]
+```
+​
+9. What is PHP function strlen?
+​
+```
+[Put Your Answer Here]
+```
+​
+​
+## Section: SQL
+​
+For the below questions, assume you are using this table (named `Persons`):
+​
+| Id | FirstName | LastName  |
+|----|-----------|-----------|
+| 1  | Peter     | Jackson   |
+| 2  | Adam      | Savage    |
+| 3  | Linus     | Sebastian |
+| 4  | Brent     | Spiner    |
+| 5  | Doom      | Guy       |
+​
+1. How would you select just the first record and only the column `FirstName`?
+​
+```
+[Put Your Answer Here]
+```
+​
+2. How would you select all the records where the `FirstName` is "Peter" and the `LastName` is "Jackson"?
+​
+```
+[Put Your Answer Here]
+```
+​
+3. How would you select all the records where the `LastName` starts with an "s"?
+​
+```
+[Put Your Answer Here]
+```
+​
+4. How would you select all the records where the `FirstName` is alphabetically between "Brent" and "Linus"?
+​
+```
+[Put Your Answer Here]
+```
+​
+5. How would you insert the name "David Tennant"?
+​
+```
+[Put Your Answer Here]
+```
+​
+6. How would you change all the records where the `FirstName` is equal to "Peter" into "Samuel"?
+​
+```
+[Put Your Answer Here]
+```
+​
+7. How would you delete the records where the `LastName` is "Sebastian"?
+​
+```
+[Put Your Answer Here]
+```
+​
+8. How would you get the number of records in the `Persons` table?
+​
+```
+[Put Your Answer Here]
+```
+​
+9. Give an example of how would you join 2 related tables together?
+​
+```
+[Put Your Answer Here]
+```
+​
+​
+## Section: Vanilla Javascript
+​
+1. How do you create a function in JavaScript?
+​
+```
+[Put Your Answer Here]
+```
+​
+2. How do you call a function named "myFunction"?
+​
+```
+[Put Your Answer Here]
+```
+​
+4. How to write an IF statement for executing some code if "i" is NOT equal to 5?
+​
+```
+[Put Your Answer Here]
+```
+​
+5. How does a WHILE loop start?
+​
+```
+[Put Your Answer Here]
+```
+​
+6. How does a FOR loop start?
+​
+```
+[Put Your Answer Here]
+```
+​
+7. How do you round the number 7.25, to the nearest integer?
+​
+```
+[Put Your Answer Here]
+```
+​
+8. What will the following code return: Boolean(10 > 9)
+​
+## Section: jQuery
+​
+1. Can jQuery animate() method can be used to animate ANY CSS property?
+​
+```
+[Put Your Answer Here]
+```
+​
+2. Which jQuery method is used to hide selected elements?
+​
+```
+[Put Your Answer Here]
+```
+​
+3. Which jQuery method is used to perform an asynchronous HTTP request?
+​
+```
+[Put Your Answer Here]
+```
+​
+4. Look at the following selector: $("div p"). What does it select?
+​
+```
+[Put Your Answer Here]
+```
+​
+​
+## Section: React
+​
+1. What is JSX?
+​
+```
+[Put Your Answer Here]
+```
+​
+2. What triggers a render cycle?
+​
+```
+[Put Your Answer Here]
+```
+​
+3. What is a React Hook?
+​
+```
+[Put Your Answer Here]
+```
+​
+4. Which method in a React Component should you override to stop the component from updating?
+​
+```
+[Put Your Answer Here]
+```
+​
+5. Which method in a React Component is called after the component is rendered for the first time?
+​
+```
+[Put Your Answer Here]
+```
+​
+6. What happens when you call setState() inside render() method?
+​
+```
+[Put Your Answer Here]
+```
